@@ -57,7 +57,7 @@ jobs:
           to_step: 2
           branch_name: ci
           
-  build:
+  build: # test build
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
